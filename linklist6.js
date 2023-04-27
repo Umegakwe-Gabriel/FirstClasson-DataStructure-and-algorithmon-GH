@@ -1,19 +1,19 @@
-class Node {
+class Node6 {
     constructor (val){
         this.val = val;
-        this.next = null;
+        this,next = null;
     }
 }
 
-class Linklist5 {
-    constructor(){
+class Linklist6 {
+    constructor (){
         this.head = null;
         this.tail = null;
-        this.length = 0;
+        this.length= 0;
     }
 
-    insert(val){
-        let node = new Node (val)
+    insert (){
+        let node = new Node6 (val)
         if (!this.head) {
             this.head = node;
             this.tail = this.head;
@@ -25,14 +25,14 @@ class Linklist5 {
         return this;
     }
 
-    remove (){
+    remove(){
         if (!this.head) {
-            return undefined
+            return undefined;
         } else {
             let current = this.tail;
             let newTail = current;
 
-            while (current.next){
+            while (current.next) {
                 this.tail = newTail;
                 this.tail.next = null;
             }
@@ -43,16 +43,16 @@ class Linklist5 {
     }
 }
 
-let linkedList = new Linklist5();
+let linkedList = new Linklist6();
 console.log(linkedList.insert(39));
 console.log(linkedList.insert(34));
 
-console.log(linkedList.insert([29, 3,6, 9]));
-console.log(linkedList.insert(49));
-console.log(linkedList.insert({name: "banana"}));
+console.log(linkedList.insert([39, 2, 4, 6]));
+console.log(linkedList.insert(59));
+console.log(linkedList.insert({name: "tooboy"}));
 console.log(linkedList.insert(19));
 console.log("");
 console.log(linkedList.length);
-linkedList.remove();
+linkedList.remove()
 console.log("");
 console.log(linkedList.length);
