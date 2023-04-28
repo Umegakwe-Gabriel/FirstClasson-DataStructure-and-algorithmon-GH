@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev --respawn --transpile-only linklist16.js",
+    "start": "ts-node-dev --respawn --transpile-only linklist17.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

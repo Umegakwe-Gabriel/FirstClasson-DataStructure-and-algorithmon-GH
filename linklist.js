@@ -5,7 +5,7 @@ class Node {
     }
   }
   
-  class Linklist {
+  class Linklist17 {
     constructor() {
       this.head = null;
       this.tail = null;
@@ -42,13 +42,13 @@ class Node {
       }
     }
   }
-  let linkedList = new Linklist();
+  let linkedList = new Linklist17();
   console.log(linkedList.insert(39));
   console.log(linkedList.insert(34));
   
   console.log(linkedList.insert([6, 8, 9]));
   console.log(linkedList.insert(79));
-  console.log(linkedList.insert({ name: "okus" }));
+  console.log(linkedList.insert({ name: "pop" }));
   console.log(linkedList.insert(09));
   console.log("");
   console.log(linkedList.length);
