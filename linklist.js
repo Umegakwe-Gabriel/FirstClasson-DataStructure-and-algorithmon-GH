@@ -42,7 +42,7 @@ class Node {
       }
     }
   }
-  let linkedList = new Linklist17();
+  let linkedList = new Linklist18();
   console.log(linkedList.insert(39));
   console.log(linkedList.insert(34));
   
