@@ -42,13 +42,13 @@ class Node {
       }
     }
   }
-  let linkedList = new Linklist18();
+  let linkedList = new Linklist19();
   console.log(linkedList.insert(39));
   console.log(linkedList.insert(34));
   
   console.log(linkedList.insert([6, 8, 9]));
   console.log(linkedList.insert(79));
-  console.log(linkedList.insert({ name: "pop" }));
+  console.log(linkedList.insert({ name: "push" }));
   console.log(linkedList.insert(09));
   console.log("");
   console.log(linkedList.length);
