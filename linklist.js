@@ -42,17 +42,19 @@ class Node {
       }
     }
   }
-  console.clear();
   let linkedList = new Linklist();
   console.log(linkedList.insert(39));
   console.log(linkedList.insert(34));
   
   console.log(linkedList.insert([6, 8, 9]));
   console.log(linkedList.insert(79));
-  console.log(linkedList.insert({ name: "Peter" }));
+  console.log(linkedList.insert({ name: "okus" }));
   console.log(linkedList.insert(09));
   console.log("");
   console.log(linkedList.length);
   linkedList.remove();
   console.log("");
   console.log(linkedList.length);
+  linkedList.remove();
+  console.log(linkedList.length);
+  console.log(linkedList.insert(40));
